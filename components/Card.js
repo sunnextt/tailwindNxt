@@ -1,7 +1,7 @@
 import { Button } from './Button';
 
 
-export const Card = () => {
+const Card = () => {
   return  (
     <div className="basis-1/2 flex flex-col justify-center items-center" >
         <div >
@@ -25,3 +25,5 @@ export const Card = () => {
     </div>
   )
 };
+
+export default Card
